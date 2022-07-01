@@ -19,6 +19,8 @@ function Favorites() {
     });
   }, []);
   return (
+    <div className="movieContainer">
+
     <div className="movies">
       <h2 className="moviesTitle">Favorites</h2>
 
@@ -27,6 +29,7 @@ function Favorites() {
           return <Movie key={movie.id} movie={movie} />;
         })}
       </div>
+    </div>
     </div>
   );
 }

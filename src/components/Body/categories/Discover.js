@@ -19,6 +19,7 @@ function Discover() {
     });
   }, []);
   return (
+    <div className="movieContainer">
     <div className="movies">
       <h2 className="moviesTitle">Discover</h2>
       <div className="movies">
@@ -26,6 +27,7 @@ function Discover() {
           return <Movie key={movie.id} movie={movie} />;
         })}
       </div>
+    </div>
     </div>
   );
 }

@@ -20,6 +20,7 @@ function NewReleases() {
     });
   }, []);
   return (
+    <div className="movieContainer">
     <div className="movies">
       <h2 className="moviesTitle">New Releases</h2>
 
@@ -28,6 +29,7 @@ function NewReleases() {
           return <Movie key={movie.id} movie={movie} />;
         })}
       </div>
+    </div>
     </div>
   );
 }

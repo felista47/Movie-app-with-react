@@ -10,12 +10,12 @@ gap:1rem;
     width:205px;
     flex-wrap:wrap;
     gap: 0.5rem;
-    /* border: solid blue; */
   }
   .movies{
-    display: flex;
-    gap: 1rem;
-  }
+  flex-wrap: wrap;
+  display: flex;
+    
+}
   .movieContent{
     display: flex;
     flex-wrap: wrap;
