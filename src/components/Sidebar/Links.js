@@ -9,20 +9,19 @@ function Links() {
     <nav className="sidebar__group">
       <Link to="/" className="sidebar__option">
         <TbHome style={{ height: "25", width: "30" }} />
-        <p className="sidebar__option-text">Discover</p>
+        <p>Discover</p>
       </Link>
       <Link to="new-releases" className="sidebar__option">
         <BiWallet style={{ height: "25", width: "30" }} />
-        <p className="sidebar__option-text">New Releases</p>
+        <p>New Releases</p>
       </Link>
       <Link to="upcoming" className="sidebar__option">
         <AiOutlineCoffee style={{ height: "25", width: "30" }} />
-        <p className="sidebar__option-text">Upcoming</p>
+        <p>Upcoming</p>
       </Link>
       <Link to="favorites" className="sidebar__option">
         <AiOutlineHeart style={{ height: "25", width: "30" }} />
-
-        <p className="sidebar__option-text">Favorites</p>
+        <p>Favorites</p>
       </Link>
     </nav>
   );

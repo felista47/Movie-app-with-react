@@ -19,10 +19,10 @@ function Favorites() {
     });
   }, []);
   return (
-    <div className="movie">
+    <div className="movies">
       <h2 className="moviesTitle">Favorites</h2>
 
-      <div className="movie">
+      <div className="movies">
         {movies.map((movie) => {
           return <Movie key={movie.id} movie={movie} />;
         })}

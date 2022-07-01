@@ -2,7 +2,6 @@ import React from "react";
 import "./sidebar.css";
 import { IoEnterSharp } from "react-icons/io5";
 import { SiVisualstudiocode } from "react-icons/si";
-
 import Links from "./Links";
 
 function Sidebar() {
@@ -23,10 +22,10 @@ function Sidebar() {
         <Links />
         <section className="sidebar__genre">
           <p className="sidebar__genre-bold-text">Genre</p>
-          <p className="sidebar__genre-text">Action</p>
-          <p className="sidebar__genre-text">Documentary</p>
-          <p className="sidebar__genre-text">Comedy</p>
-          <p className="sidebar__genre-text">Horror</p>
+          <p>Action</p>
+          <p>Documentary</p>
+          <p>Comedy</p>
+          <p>Horror</p>
         </section>
         <section className="sidebar__downloads">
           <p className="sidebar__genre-bold-text">Downloads</p>
